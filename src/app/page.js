@@ -66,6 +66,8 @@ export default function Home() {
     setImageUrl(example.imageUrl);
     setTitle(example.title);
     setDescription(example.description);
+    setAlert(null);
+    setResult(null);
   };
 
   useEffect(() => {
