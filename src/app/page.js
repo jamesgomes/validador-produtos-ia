@@ -242,6 +242,9 @@ export default function Home() {
           </ModalContent>
         </ModalOverlay>
       )}
+      <footer style={{ textAlign: 'center', marginTop: '40px', color: '#86868b', fontSize: '14px' }}>
+        Desenvolvido por <strong>James Gomes</strong>
+      </footer>
     </Container>
   );
 }

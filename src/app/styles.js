@@ -354,3 +354,15 @@ export const CloseButton = styled.button`
   cursor: pointer;
 `;
 
+export const Footer = styled.footer`
+  text-align: center;
+  margin-top: 40px;
+  color: #86868b;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 16px 0;
+
+  @media (max-width: 480px) {
+    font-size: 12px;
+  }
+`;
